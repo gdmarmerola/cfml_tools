@@ -6,9 +6,14 @@ For a long time, ML practitioners and Statisticians repeated the same mantra: *C
 
 # Installation
 
+Open up your terminal and perform:
 
+`git clone https://github.com/gdmarmerola/cfml_tools.git
+cd cfml_tools
+python setup.py install 
+`
 
 # Usage
 
-The package uses a scikit-learn like API, and is fairly easy to use. Check the [examples]() for applications on toy causal inference datasets!
+The package uses a scikit-learn like API, and is fairly easy to use. Check the [examples](https://github.com/gdmarmerola/cfml_tools/tree/master/examples) for applications on toy causal inference datasets!
 
