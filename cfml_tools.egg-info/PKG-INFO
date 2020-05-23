@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cfml-tools
+Version: 0.1.dev0
+Summary: Counterfactual machine learning tools
+Home-page: https://github.com/gdmarmerola/cfml_tools
+Author: Guilherme Marmerola
+Author-email: gdmarmerola@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache License 2.0
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
