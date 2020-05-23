@@ -8,9 +8,11 @@ For a long time, ML practitioners and Statisticians repeated the same mantra: *C
 
 Open up your terminal and perform:
 
-`git clone https://github.com/gdmarmerola/cfml_tools.git`
-`cd cfml_tools`
-`python setup.py install`
+```
+git clone https://github.com/gdmarmerola/cfml_tools.git
+cd cfml_tools
+python setup.py install
+```
 
 # Usage
 
