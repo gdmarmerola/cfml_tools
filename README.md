@@ -16,5 +16,5 @@ python setup.py install
 
 # Usage
 
-The package uses a scikit-learn like API, and is fairly easy to use. Check the [examples](https://github.com/gdmarmerola/cfml_tools/tree/master/examples) for applications on toy causal inference datasets!
+The package uses a scikit-learn like API, and is fairly easy to use. Check [my article about it](https://gdmarmerola.github.io/forest-embeddings-counterfactual/) the [examples](https://github.com/gdmarmerola/cfml_tools/tree/master/examples) for applications on toy causal inference datasets!
 
