@@ -1,6 +1,5 @@
 README.md
 setup.py
-cfml_tools/__init__.py
 cfml_tools.egg-info/PKG-INFO
 cfml_tools.egg-info/SOURCES.txt
 cfml_tools.egg-info/dependency_links.txt
