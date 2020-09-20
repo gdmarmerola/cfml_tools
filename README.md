@@ -151,9 +151,9 @@ You can check several additional resources:
 * [my article about Forest Embeddings Counterfactual](https://gdmarmerola.github.io/forest-embeddings-counterfactual/)
 * [my article about Decision Tree Counterfactual](https://gdmarmerola.github.io/forest-embeddings-counterfactual/)
 * [my article about confounding and leaf diagnostics]() 
-* [Decision Tree Counterfactual example notebook]()
-* [Forest Embeddings Counterfactual example notebook]()
-* [Leaf diagnostics example notebook]()
+* [Decision Tree Counterfactual example notebook](https://github.com/gdmarmerola/cfml_tools/blob/master/examples/Decision%20Tree%20Counterfactual.ipynb)
+* [Forest Embeddings Counterfactual example notebook](https://github.com/gdmarmerola/cfml_tools/blob/master/examples/Forest%20Embeddings%20Counterfactual.ipynb)
+* [Leaf diagnostics example notebook](https://github.com/gdmarmerola/cfml_tools/blob/master/examples/Diagnosing%20validity%20of%20causal%20effects%20on%20decision%20trees.ipynb)
 
 I hope you'll use `cfml_tools` for your causal inference problems soon! All feedback is appreciated :)  
 
