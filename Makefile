@@ -46,8 +46,5 @@ test: ## run tests quickly with the default Python
 test-all: ## run tests on every Python version with tox
 	tox
 
-install: clean ## install the package to the active Python's site-packages
-	python setup.py install
-
-develop: clean
+develop: clean ## install the package in develop mode
 	pip install -e .
