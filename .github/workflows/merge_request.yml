@@ -23,7 +23,7 @@ jobs:
     - name: Lint with flake8
       run: |
         pip install flake8
-        flake8 setup.py cfml_tools/* --count --ignore=E722 --show-source --statistics
+        flake8 setup.py cfml_tools/* --count --show-source
     - name: Testing all python versions
       run: |
         make test-all
