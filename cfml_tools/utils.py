@@ -3,7 +3,7 @@ from numpy import nan
 import pandas as pd
 
 # REPRODUCING make_confounded_data FUNCTION FROM
-# FKLEARN FOR SYMPLICITY, AS FKLEARN HAS STRICT REQUIREMENTS 
+# FKLEARN FOR SYMPLICITY, AS FKLEARN HAS STRICT REQUIREMENTS
 # FOR SKLEARN, PANDAS AND NUMPY AND WE WANTED TO DECOUPLE FROM IT
 # WE'RE NOT CREDIBLE FOR THIS CODE
 # LINK: https://github.com/nubank/fklearn/blob/master/src/fklearn/data/datasets.py
@@ -62,7 +62,7 @@ def make_confounded_data(n):
     df_obs['medication'] = get_treatment(df_obs)
     df_obs['recovery'] = get_recovery(df_obs)
 
-    # caunter_factual data
+    # counter_factual data
     df_ctf = df_obs.copy()
     df_ctf['medication'] = ((df_ctf['medication'] == 1) ^ 1).astype(float)
     df_ctf['recovery'] = get_recovery(df_ctf)
