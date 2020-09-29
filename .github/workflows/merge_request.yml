@@ -1,0 +1,29 @@
+# This workflows will test the Package when a merge request is created
+name: Merge
+
+on: [pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements_dev.txt
+    - name: Setup flake8 annotations
+      uses: rbialon/flake8-annotations@v1
+    - name: Lint with flake8
+      run: |
+        pip install flake8
+        flake8 setup.py cfml_tools/* --count --show-source
+    - name: Testing all python versions
+      run: |
+        make test-all
