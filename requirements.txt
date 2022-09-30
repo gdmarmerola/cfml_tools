@@ -1,5 +1,5 @@
 certifi==2020.6.20
-joblib==0.16.0
+joblib==1.2.0
 llvmlite==0.34.0
 numba==0.51.2
 numpy==1.19.2
